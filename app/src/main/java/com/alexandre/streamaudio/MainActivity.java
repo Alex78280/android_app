@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
         btn = (Button) findViewById(R.id.audioStreamBtn);
 
         mediaPlayer = new MediaPlayer();
@@ -47,17 +47,6 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                /*try {
-                    mediaPlayer.prepare(); // might take long! (for buffering, etc)
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-
-                mediaPlayer.start();*/
-
-
-
 
                if (!playPause) {
                     btn.setText("Pause Streaming");
@@ -82,30 +71,6 @@ public class MainActivity extends AppCompatActivity {
 
                     playPause = false;
                 }
-
-
-
-                /*if (!playPause) {
-                    btn.setText("Pause Streaming");
-
-                    if (initialStage) {
-                        new Player().execute(url);
-                    } else {
-                        if (!mediaPlayer.isPlaying())
-                            mediaPlayer.start();
-                    }
-
-                    playPause = true;
-
-                } else {
-                    btn.setText("C\'est Parti !!");
-
-                    if (mediaPlayer.isPlaying()) {
-                        mediaPlayer.pause();
-                    }
-
-                    playPause = false;
-                }*/
 
             }
         });
