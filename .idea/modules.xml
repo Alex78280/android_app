@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/StreamAudio.iml" filepath="$PROJECT_DIR$/StreamAudio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_mediaplayer.iml" filepath="$PROJECT_DIR$/android_mediaplayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

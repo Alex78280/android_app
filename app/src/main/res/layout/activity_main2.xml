@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -29,15 +28,15 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
-            tools:src="@mipmap/ic_launcher" />
+            android:src="@drawable/eagle" />
 
         <TextView
             android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"
-            tools:text="Johnny Halliday - Allumez le feu"
-            android:textColor="#333"
+            android:text="Johnny Halliday - Allumez le feu"
+            android:textColor="#000000"
             android:textSize="18sp" />
     </LinearLayout>
 
